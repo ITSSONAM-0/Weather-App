@@ -16,11 +16,26 @@ It fetches live weather data from **OpenWeatherMap API** and displays:
 You can view the live project here:  
 [Weather App Live](https://itssonam-0.github.io/Weather-App/)  
 
-*(Replace this link with your GitHub Pages or Vercel deployment link.)*
 
 ---
 
-## 📁 Project Structure
+## 📖 How It Works
+
+1. The user types a **city name** into the input box.  
+2. The user clicks the **search button** or presses **Enter**.  
+3. JavaScript sends a **request to the OpenWeatherMap API** using the city name and API key.  
+4. The API returns weather data in **JSON format**, including:
+   - Temperature
+   - Weather condition
+   - Humidity
+   - Wind speed  
+5. The app displays this data in the UI:
+   - Temperature and description in the center  
+   - Humidity and wind speed in the details section  
+   - A weather image changes dynamically based on the weather condition (Clouds, Clear, Rain, Mist, Snow)  
+6. If the city is not found, a **“Location not found”** message with a 404 image is shown.  
+
+--
 
 
 ---
@@ -46,8 +61,6 @@ You can view the live project here:
 
 ---
 
-## 🚀 How to Run Locally
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/weather-app.git
+
+
