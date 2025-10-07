@@ -14,7 +14,7 @@ It fetches live weather data from **OpenWeatherMap API** and displays:
 ## 🔗 Live Demo
 
 You can view the live project here:  
-[Weather App Live](https://your-live-link.com)  
+[Weather App Live](https://itssonam-0.github.io/Weather-App/)  
 
 *(Replace this link with your GitHub Pages or Vercel deployment link.)*
 
