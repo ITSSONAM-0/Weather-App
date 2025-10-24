@@ -57,14 +57,12 @@ async function checkWeather(city){
     }
 }
 
-// Search on button click
 searchBtn.addEventListener('click', () => {
     const city = inputBox.value.trim();
     if(city === "") return alert("Please enter a city name");
     checkWeather(city);
 });
 
-// Search on Enter key
 inputBox.addEventListener('keyup', (event) => {
     if(event.key === "Enter") searchBtn.click();
 });
